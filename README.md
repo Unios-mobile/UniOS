@@ -22,7 +22,9 @@ The stack used is:
 - ![Lua](https://img.shields.io/badge/lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white)
 
 ## Explaining the Languages
-For the system files that *aren't* configuration files, C++ is used. For the configuration files, Lua is used. For the UI and apps, Kotlin is used.
+For the system files that *aren't* configuration files, Rust is used. For the configuration files, Lua is used. For the UI and apps, Kotlin is used.
+
+There is other allowed languages such as React but all standard UniOS apps are made with Kotlin, Lua, and Rust
 
 # Custom File Formats
 - **UNX**: UNX files are the executables/package files that are used to run UniOS
