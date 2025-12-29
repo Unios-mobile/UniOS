@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "unios"
+name = "UniOS"
 version = "0.1.0"
