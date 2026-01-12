@@ -32,13 +32,13 @@ There is other allowed languages such as React but all standard UniOS apps are m
 - **UNX**: UNX files are the executables/package files that are used to run UniOS
 - **UNI**: UNI files are the configuration files for the system. It accepts Lua, KDL, and ~~C++~~ Rust.
 # Pre-Installed Software 
-> [!IMPORTANT] Definitions
-> `[Optional]`: An app with the [Optional] tag means that it will be in the downloads page for you to download when you install UniOS 
-> `[Forked]`: An app with the [Forked] tag means that it is forked from another open-source project. Often it is for it to be UniOS compatible.
-> `[Closed-Source]`: An app with the [Closed-Source] tag means that the app's source code is not visible and is ***NOT*** recommended for privacy minded indivisuals.
-> `[Open-Source]`: An app with the [Open-Source] tag means that the app's source code is publicly avaliable and recommended for privacy minded indvisuals.
-> > These apps will be followed by a link at the end to the source code.
-
+## Tag Definitions
+- `[Optional]`: An app with the [Optional] tag means that it will be in the downloads page for you to download when you install UniOS
+- `[Forked]`: An app with the [Forked] tag means that it is forked from another open-source project. Often it is for it to be UniOS compatible.
+- `[Closed-Source]`: An app with the [Closed-Source] tag means that the app's source code is not visible and is ***NOT*** recommended for privacy minded indivisuals.
+- `[Open-Source]`: An app with the [Open-Source] tag means that the app's source code is publicly avaliable and recommended for privacy minded indvisuals.
+    - These apps will be followed by a link at the end to the source code.
+## Apps
 UniOS comes with custom forks of some Android software along with its own custom software.
 ### Android Apps
 - [Open-Source] [Aurora Store](https://f-droid.org/en/packages/com.aurora.store/): An APK store that can be downloaded from F-Droid to have Google Play apps without Google Play. [Source-Code](https://gitlab.com/AuroraOSS/AuroraStore) 
