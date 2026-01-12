@@ -30,18 +30,29 @@ There is other allowed languages such as React but all standard UniOS apps are m
 
 # Custom File Formats
 - **UNX**: UNX files are the executables/package files that are used to run UniOS
-- **UNI**: UNI files are the configuration files for the system. It accepts Lua, KDL, and C++
+- **UNI**: UNI files are the configuration files for the system. It accepts Lua, KDL, and ~~C++~~ Rust.
 # Pre-Installed Software
 UniOS comes with custom forks of some Android software along with its own custom software.
 ## Android Apps
-- F-Droid: FOSS APK App store
+- F-Droid: FOSS APK App store 
+- microG: Allows Google Play Services without Google Play services.
 ## Uni Apps
 - UniStore: UniOS app store.
+    - **Accessed stores & libraries:**
+        - Aurora Store: An APK store that can be downloaded from F-Droid to have Google Play apps without Google Play.
 - UniSys: UniOS System Settings
-- UniScreen: UniOS App Launcher. [Forked] from [KISS Launcher](https://f-droid.org/packages/fr.neamar.kiss)
+- UniScreen: UniOS App Launcher. 
+    - **Possible Launchers**: 
+        - [Forked] from [KISS Launcher](https://f-droid.org/packages/fr.neamar.kiss) → forked to be compatible with UniOS.
 - UniCam: UniOS Camera app.
 - UniDate: UniOS calander app.
+- UniMsg: UniOS SMS app.
+
+# Future Plans
+- **Matrix Server.** There is plans on making a Matrix server for UniOS to allow you to communicate with your own people.
+- **Forum Page.** There is plans for a Forum page that will be on the UniOS website that will allow you to communicate and share your own creations with UniOS.
+
 # NOTICE
 UniOS scrapes data from certain sources, these sources are to allow you to have access to every app. 
-
-One of these sources is the Google Play Store.
+**Scraped Sources:**
+- One of these sources is the Google Play Store.
