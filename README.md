@@ -13,7 +13,9 @@ UniOS apps are written in Kotlin for easy access to your PC via a USB connection
 The configuration files use Lua.
 
 # Backbone
-UniOS uses the ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) kernel with SystemD for the init system. 
+UniOS uses the /e/OS — a deGoogled version of the Android kernel—  kernel, with custom daemons for the OS to allow `.rpm`, `.deb`, `.exe`, and `.unx` files. 
+
+For what /e/OS is please visit their [website](https://e.foundation/e-os/). To see some phones that use it, you can go to visit [murena.com > Shop](https://murena.com/) for the information. 
 
 # Stack
 The stack used is:
