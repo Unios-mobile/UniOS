@@ -3,7 +3,7 @@ UniOS is a ARM mobile OS designed to allow porting of different executables on o
 The possible executables it can run are APK and UNX (uniOS's custom executables).
 
 # Languages
-The languages that UniOS is programmed in is C++, Lua, Kotlin with SASS for the some UI support.
+The languages that UniOS is programmed in is Rust, Lua, Kotlin with SASS for the some UI support.
 
 # Uses
 UniOS is good for those whom like a secure and private running. With a custom app store that draws on different APKs that you can find on GitHub, Google Play Store, and f-droid.
@@ -19,14 +19,14 @@ For what /e/OS is please visit their [website](https://e.foundation/e-os/). To s
 
 # Stack
 The stack used is:
+## Programming Languages (Front & Backend)
 - ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
 - ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
 - ![Lua](https://img.shields.io/badge/lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white)
 
 ## Explaining the Languages
 For the system files that *aren't* configuration files, Rust is used. For the configuration files, Lua is used. For the UI and apps, Kotlin is used.
-
-There is other allowed languages such as React but all standard UniOS apps are made with Kotlin, Lua, and Rust
+<br>There is other allowed languages such as React but all standard UniOS apps are made with Kotlin, Lua, and Rust
 
 # Custom File Formats
 - **UNX**: UNX files are the executables/package files that are used to run UniOS
@@ -46,17 +46,16 @@ UniOS comes with custom forks of some Android software along with its own custom
 - [Open-Source] [F-Droid](https://f-droid.org/): [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) APK App store [Source-Code](https://gitlab.com/fdroid/fdroidclient)
 - [Open-Source] [microG](https://github.com/microg/GmsCore/releases/tag/v0.3.11.250932): Allows Google Play Services without Google Play services. [Source-Code](https://github.com/microg/GmsCore/)
 ### Uni Apps
+- UniCam: UniOS Camera app.
+- UniDate: UniOS calander app.
+- UniMsg: UniOS SMS app. 
+ - UniScreen: UniOS App Launcher. 
+    - **Possible Launchers**: 
+        - [Forked] from [Open-Source] [KISS Launcher](https://f-droid.org/packages/fr.neamar.kiss) [Source-Code](https://github.com/Neamar/KISS) → forked to be compatible with UniOS.
 - UniStore: UniOS app store.
     - **Accessed stores & libraries:**
         - Google Play → Not in the base version, but will be scraped in later versions to allow you to have one unified store.
 - UniSys: UniOS System Settings
-- UniScreen: UniOS App Launcher. 
-    - **Possible Launchers**: 
-        - [Forked] from [Open-Source] [KISS Launcher](https://f-droid.org/packages/fr.neamar.kiss) [Source-Code](https://github.com/Neamar/KISS) → forked to be compatible with UniOS.
-- UniCam: UniOS Camera app.
-- UniDate: UniOS calander app.
-- UniMsg: UniOS SMS app. 
-
 # Other Files 
 - [CODE_OF_CONDUCT.MD](https://github.com/Unios-mobile/UniOS/blob/main/CODE_OF_CONDUCT.md)
 - [FAQ.md](https://github.com/Unios-mobile/UniOS/blob/main/FAQ.md)
@@ -67,4 +66,4 @@ UniOS comes with custom forks of some Android software along with its own custom
 # NOTICE
 UniOS scrapes data from certain sources, these sources are to allow you to have access to every app. 
 **Scraped Sources:**
-- One of these sources is the Google Play Store.
+- One of these sources is the Google Play Store. Scraped To: *UniStore*
