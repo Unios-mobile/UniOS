@@ -13,6 +13,7 @@ UniOS apps are written in Kotlin for easy access to your PC via a USB connection
 The configuration files use Lua.
 
 # Backbone
+- ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 UniOS uses the /e/OS — a deGoogled version of the Android kernel—  kernel, with custom daemons for the OS to allow `.rpm`, `.deb`, `.exe`, and `.unx` files. 
 
 For what /e/OS is please visit their [website](https://e.foundation/e-os/). To see some phones that use it, you can go to visit [murena.com > Shop](https://murena.com/) for the information. 
@@ -41,12 +42,11 @@ For the system files that *aren't* configuration files, Rust is used. For the co
 ## Apps
 UniOS comes with custom forks of some Android software along with its own custom software.
 ### Android Apps
-All apps use their ![F Droid](https://img.shields.io/badge/F_Droid-1976D2?style=for-the-badge&logo=f-droid&logoColor=white) links
 - [Open-Source] [Aurora Store](https://f-droid.org/en/packages/com.aurora.store/): An APK store that can be downloaded from F-Droid to have Google Play apps without Google Play. [Source-Code](https://gitlab.com/AuroraOSS/AuroraStore) 
 - [Optional] [Open-Source] [Element](https://f-droid.org/en/packages/io.element.android.x/): An APK file that allows you to use Matrix. [Source-Code](https://github.com/element-hq/element-android)
-- [Open-Source] [F-Droid](https://f-droid.org/): [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) APK App store [Source-Code](https://gitlab.com/fdroid/fdroidclient)
+- [Open-Source] [F-Droid](https://f-droid.org/): [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) APK App store [Source-Code](https://gitlab.com/fdroid/fdroidclient) ![F Droid](https://img.shields.io/badge/F_Droid-1976D2?style=for-the-badge&logo=f-droid&logoColor=white) 
 - [Open-Source] [microG](https://github.com/microg/GmsCore/releases/tag/v0.3.11.250932): Allows Google Play Services without Google Play services. [Source-Code](https://github.com/microg/GmsCore/)
-- [Optional] [Open-Source] [Thunderbird](https://f-droid.org/packages/net.thunderbird.android/): An open-source email client made by Mozilla. [Source-Code](https://github.com/thunderbird/thunderbird-android)
+- [Optional] [Open-Source] [Thunderbird](https://f-droid.org/packages/net.thunderbird.android/): An open-source email client made by Mozilla. [Source-Code](https://github.com/thunderbird/thunderbird-android) ![Thunderbird](https://img.shields.io/badge/Thunderbird-0A84FF.svg?style=for-the-badge&logo=Thunderbird&logoColor=white)
 ### Uni Apps
 - UniCam: UniOS Camera app.
 - UniDate: UniOS calander app.
