@@ -28,7 +28,9 @@
  
 // Functions 
 fn daemon_render() {
+    // This is a function that will render all the daemons.
 }
 // Main function 
 fn main() {
+    daemon_render();
 }
